@@ -1,34 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Zachary Cohen</title>
-    <!-- my CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8" />
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=-1.0" /> -->
+  <meta name="viewport" content="width=device-width, initial-scale=-1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Zachary Cohen</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <!-- my CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400i&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+  <!-- navigation -->
+  <nav class="navbar navbar-expand navbar-dark bg-black">
+    <a class="navbar-brand" href="index.html" id="me">Zachary Cohen</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html" id="port">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" id="con">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+  <!-- about section -->
+  <section id="aboutSection" class="">
+
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="display-4" id="me">Hi.I'm Zachary</h1>
+          <hr>
+          <p class="lead " id="me">A Full Stack Web Developer with a focus on JavaScript, CSS, React.js, and responsive web design.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid text-center">
+      <div class="row">
+        <div class="col-4">
+          <h5 id="con">Mobile First</h5>
+          <img class="hvr-bounce-in" src="https://image.flaticon.com/icons/svg/186/186239.svg" alt="" style="height:80px;width:80px;">
+
+        </div>
+        <div class="col-4">
+          <h5 id="con">Full Stack</h5>
+          <img class="hvr-bounce-in" src="https://image.flaticon.com/icons/svg/1197/1197409.svg" alt="" style="height:80px;width:80px;">
+        </div>
+        <div class="col-4">
+          <h5 id="con">Ecommerce</h5>
+          <img class="hvr-bounce-in" src="https://image.flaticon.com/icons/svg/164/164429.svg" alt="" style="height:80px;width:80px;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end about section -->
+
+  <!-- portfolio -->
+<div class="container-fluid">
+  <section id="deck">
+    <!-- album -->
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg 4 ">
+          <div class="card mb-4 shadow-sm"id="card1">
+            <div class="card-header">
+              <img class="hvr-wobble-horizontal" src="https://image.flaticon.com/icons/svg/2118/2118739.svg" alt="" style="height:90px;width:90px;">
+              <!-- <h4 class="my-0 font-weight-normal">Free</h4> -->
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title" id="me">Liri Bot</h1>
+              <p id="con">command line node app that uses commands from the user to search various APIs.</p>
+              <div class="btn-group">
+                <a href="https://github.com/thezman88/liri-node-app"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg 4 ">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <img class="hvr-wobble-horizontal text-center" src="https://image.flaticon.com/icons/svg/2145/2145331.svg" alt="" style="height:100px;width:100px;">
+              <!-- <h4 class="my-0 font-weight-normal">Free</h4> -->
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title tex">Bamazon</h1>
+              <p>Command line app that uses mysql to simulate an ecommerce expirence.</p>
+              <div class="btn-group">
+              <a href="https://github.com/thezman88/Bamazon"> <button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg 4 ">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <img class="hvr-wobble-horizontal" src="https://image.flaticon.com/icons/svg/1497/1497835.svg" alt="" style="height:100px;width:100px;">
+              <!-- <h4 class="my-0 font-weight-normal">Free</h4> -->
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">D8nite</h1>
+              <p>Group Project that makes use of five APIs to help plan the perfect date.</p>
+              <div class="btn-group">
+                <a href="d8nite/index.html"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+    </section>
+</div>
+
+
+  <!-- end portfolio -->
 
 
 
 
 
 
-
-
-
-
-
-    
-
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <script src="assets/javascript/app.js"></script>
 </body>
+
 </html>

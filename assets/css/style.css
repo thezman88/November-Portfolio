@@ -1,0 +1,44 @@
+body {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+    color: beige;
+    font-family: 'IBM Plex Mono', monospace;
+}
+#aboutSection{
+  height: 500px;
+}
+
+#aboutArea{
+    color: #42b883;
+    height: 400px;
+    /* background-color: #ccc;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png"); */
+}
+#me{
+  color: #42b883;
+}
+#port{
+  color: #ff7e67;
+}
+#port:hover{
+  color: #666;
+}
+#con{
+  color: #ff7e67;
+}
+#con:hover{
+  color: #666;
+}
+#mobileFirst{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#fullStack{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#eCommerce{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#card1{
+  background-color: #63686e;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+}
