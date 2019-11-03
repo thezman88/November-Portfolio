@@ -1,0 +1,132 @@
+body {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+    color: beige;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.btn:link,
+.btn:visited{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: relative;
+  color: #42b883;
+
+}
+.btn:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+  color: #42b883;
+
+}
+.btn:active{
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  color: #42b883;
+
+
+}
+.btn-white{
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  color: #42b883;
+
+
+}
+.btn::after{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .2s;
+  color: #42b883;
+
+
+
+}
+.btn-white::after{
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+  background-color: #666;
+  color: #42b883;
+
+
+
+}
+/* .btn:hover::after{
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+} */
+.btn-animated{
+  animation: moveInBtn .5s ease-out .75;
+  animation-fill-mode: backwards;
+  color: #42b883;
+
+
+}
+#aboutSection{
+  height: 500px;
+}
+
+#aboutArea{
+    color: #42b883;
+    height: 400px;
+    /* background-color: #ccc;
+    background-image: url("https://www.transparenttextures.com/patterns/billie-holiday.png"); */
+}
+#me{
+  color: #42b883;
+}
+#port{
+  color: #ff7e67;
+}
+#port:hover{
+  color: #666;
+}
+#con{
+  color: #ff7e67;
+}
+#con:hover{
+  color: #666;
+}
+#mobileFirst{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#fullStack{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#eCommerce{
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#card1{
+  background-color: #63686e;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+}
+#view{
+  color: #ff7e67;
+  border: #ff7e67;
+  background-color: #666;
+}
+#view:hover{
+  background-color: #ccc;
+}
+#fullImage{
+  cursor: pointer;
+}
+#mover{
+  margin-top: -100px;
+}
+#emailbtn{
+  background-color: #000;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+}
+#emailbtn:hover{
+  background-color: #63686e;
+  background-image: url("https://www.transparenttextures.com/patterns/black-orchid.png");
+}
